@@ -8,6 +8,7 @@ function App() {
       <nav> 
         {/* menu fixo, deve continuar na tela */}
         {/* logo */}
+        <img src='Images/logo.png' alt='browser logo'/>
         {/* ancora */}
         <a href="#main-profile"> <button>Home</button></a>
         <a href="#about"> <button>About</button></a>
