@@ -59,25 +59,25 @@ function App() {
           </div>
           <div id='box-works'>
             <div className='box' id='box-research'>
-              <div id='icon' className='box-icon'> </div>
+              <div id='icon' className='box-icon'> <img src='./Images/research-icon.png'></img> </div>
               <h1 className='box-title'>1. Research</h1>
               <h2 className='box-text'>Pariatur consequat cillum commodo incididunt minim.</h2>
             </div>
 
             <div className='box' id='box-analyze'>
-              <div id='icon' className='box-icon'> </div>
+              <div id='icon' className='box-icon'> <img src='./Images/growth-graph.png'></img> </div>
               <h1 className='box-title'>2. Analyze</h1>
               <h2 className='box-text'>Pariatur consequat cillum commodo incididunt minim.</h2>
             </div>
 
             <div className='box' id='box-design'>
-              <div id='icon' className='box-icon'> </div>
+              <div id='icon' className='box-icon'><img src='./Images/Pencil.png'></img> </div>
               <h1 className='box-title'>3. Design</h1>
               <h2 className='box-text'>Pariatur consequat cillum commodo incididunt minim.</h2>
             </div>
 
             <div className='box' id='box-launch'>
-              <div id='icon' className='box-icon'> </div>
+              <div id='icon' className='box-icon'><img src='./Images/pc-icon.png'></img> </div>
               <h1 className='box-title'>4. Launch</h1>
               <h2 className='box-text'>Pariatur consequat cillum commodo incididunt minim.</h2>
             </div>
