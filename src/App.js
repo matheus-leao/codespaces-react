@@ -6,18 +6,16 @@ function App() {
       <header className="App-header">
       </header>
       <nav id='nav'>
-        {/* menu fixo, deve continuar na tela */}
-        {/* logo */}
         <div id='nav-logo'>
           <img src='./Images/logo.png' alt='browser logo' />
         </div>
 
-        {/* ancora */}
         <div id='nav-menus'>
           <a href="#main-profile"> <button>Home</button></a>
           <a href="#about"> <button>About</button></a>
           <a href="#process"> <button>Process</button></a>
           <a href="#portifolio"> <button>Portifolio</button></a>
+          <a href="#discuss-project"> <button>Contact</button></a>
           <a href="#blog"> <button className='pink-button' >Blog</button></a>
         </div>
 
@@ -179,7 +177,7 @@ function App() {
             <h2>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</h2>
             <div id='blog-boxes'>
               <div className='blog-box'>
-              <div className='blog-logo'><img src='./Images/blog-logo1.png' alt='browser logo' /></div>
+                <div className='blog-logo'><img src='./Images/blog-logo1.png' alt='browser logo' /></div>
                 <div className='blog-content'>
                   <div className='blog-date'>22 Oct, 2020 / 246 Comments</div>
                   <div className='blog-title'>Lorem ipsum dolor sit consea. Nulla purus arcu</div>
@@ -187,7 +185,7 @@ function App() {
               </div>
 
               <div className='blog-box'>
-              <div className='blog-logo'><img src='./Images/blog-logo2.png' alt='browser logo' /></div>
+                <div className='blog-logo'><img src='./Images/blog-logo2.png' alt='browser logo' /></div>
                 <div className='blog-content'>
                   <div className='blog-date'>22 Oct, 2020 / 246 Comments</div>
                   <div className='blog-title'>Lorem ipsum dolor sit consea. Nulla purus arcu</div>
@@ -195,7 +193,7 @@ function App() {
               </div>
 
               <div className='blog-box'>
-              <div className='blog-logo'><img src='./Images/blog-logo3.png' alt='browser logo' /></div>
+                <div className='blog-logo'><img src='./Images/blog-logo3.png' alt='browser logo' /></div>
                 <div className='blog-content'>
                   <div className='blog-date'>22 Oct, 2020 / 246 Comments</div>
                   <div className='blog-title'>Lorem ipsum dolor sit consea. Nulla purus arcu</div>
@@ -203,7 +201,7 @@ function App() {
               </div>
 
               <div className='blog-box'>
-              <div className='blog-logo'><img src='./Images/blog-logo4.png' alt='browser logo' /></div>
+                <div className='blog-logo'><img src='./Images/blog-logo4.png' alt='browser logo' /></div>
                 <div className='blog-content'>
                   <div className='blog-date'>22 Oct, 2020 / 246 Comments</div>
                   <div className='blog-title'>Lorem ipsum dolor sit consea. Nulla purus arcu</div>
@@ -211,7 +209,7 @@ function App() {
               </div>
             </div>
           </div>
-            
+
         </section>
 
         <section id='what-I-do'>
@@ -219,10 +217,10 @@ function App() {
             <div id='what-text'>
               <h1>What I do?</h1>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
               </p>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.
               </p>
               <button className='purple-button'>Say Hello</button>
             </div>
@@ -231,12 +229,43 @@ function App() {
                 <h1>User Experience (UX)</h1>
                 <h2>Elit aliqua qui qui excepteur cillum esse in enim sit et ullamco sit labore excepteur. Reprehenderit cupidatat tempor velit do ullamco ipsum enim mollit minim proident. Nostrud ea ut incididunt veniam nostrud voluptate mollit deserunt quis pariatur ad ipsum. Ullamco aute sunt nulla non esse.</h2>
               </div>
+              <div className='what-box'>
+                <h1>User Interface (UI)</h1>
+                <h2>Elit aliqua qui qui excepteur cillum esse in enim sit et ullamco sit labore excepteur. Reprehenderit cupidatat tempor velit do ullamco ipsum enim mollit minim proident. Nostrud ea ut incididunt veniam nostrud voluptate mollit deserunt quis pariatur ad ipsum. Ullamco aute sunt nulla non esse.</h2>
+              </div>
+              <div className='what-box'>
+                <h1>Web Development</h1>
+                <h2>Elit aliqua qui qui excepteur cillum esse in enim sit et ullamco sit labore excepteur. Reprehenderit cupidatat tempor velit do ullamco ipsum enim mollit minim proident. Nostrud ea ut incididunt veniam nostrud voluptate mollit deserunt quis pariatur ad ipsum. Ullamco aute sunt nulla non esse.</h2>
+              </div>
             </div>
           </div>
         </section>
+
+        <section id='happy-clients'>
+
+        </section>
+        <section id='Testimonial'>
+
+        </section>
+
+        <section id='discuss-project'>
+
+        </section>
+        
       </section>
-      <footer>
-      </footer>
+<footer id='footer'>
+<div id='footer-logo'>
+            <img src='./Images/logo-white.png' alt='browser logo' />
+          </div>
+          <div id='footer-menus'>
+            <a href="#main-profile"> <button>Home</button></a>
+            <a href="#about"> <button>About</button></a>
+            <a href="#process"> <button>Process</button></a>
+            <a href="#portifolio"> <button>Portifolio</button></a>
+            <a href="#discuss-project"> <button>Contact</button></a>
+            <a href="#blog"> <button className='pink-button' >Blog</button></a>
+          </div>
+</footer>
     </div>
   );
 }

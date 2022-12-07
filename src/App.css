@@ -3,6 +3,7 @@
 
   /* Homepage */
 
+  display: inline;
 
   position: relative;
   width: 1920px;
@@ -39,14 +40,13 @@
   font-size: 0.75rem;
 }
 
+
 #nav {
   display: flex;
   justify-content: space-between;
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
   padding: 20px 300px;
   gap: 385px;
 
@@ -103,6 +103,9 @@ button {
 #sections {
   display: flex;
   flex-direction: column;
+
+  align-items: center;
+
 }
 
 #nav-logo {
@@ -315,11 +318,10 @@ h2 {
   padding: 248px 300px 140px;
   gap: 10px;
 
-  width: 1920px;
+  width: 1820px;
   height: 988px;
   left: 0px;
   bottom: 5680px;
-
 
   background: #F0F1F3;
 
@@ -522,7 +524,7 @@ h2 {
   padding: 0px;
   gap: 143px;
 
-  width: 1320px;
+  width: 1420px;
   height: 600px;
 
   align-self: center;
@@ -906,6 +908,23 @@ h2 {
   flex-grow: 0;
 }
 
+#blog{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 100px 0px;
+gap: 24px;
+
+width: 1920px;
+height: 784px;
+
+
+/* Inside auto layout */
+
+flex: none;
+}
+
 #blog-content {
   display: flex;
   flex-direction: column;
@@ -1035,17 +1054,12 @@ h2 {
   color: #333333;
 
 
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
 }
 
 #what-I-do {
-  width: 529px;
-  height: 48px;
+  width: 1921px;
+  height: 472px;
 
-  /* Body/Large/400 */
 
   font-family: 'Work Sans';
   font-style: normal;
@@ -1053,33 +1067,32 @@ h2 {
   font-size: 18px;
   line-height: 24px;
 
-  color: #87909D;
-  flex: auto;
-  align-items: center;
+  background: #FFFFFF;
+  border-radius: 12px;
 
 }
 
 #what-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  width: 1921px;
+  height: 472px;
+  background: #F0F1F3;
 }
 
 #what-text {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
+  justify-content: space-between;
+  padding: 80px;
   gap: 0px;
 
-  width: 529px;
-  height: 338px;
+  width: 1921px;
+  height: 472px;
 
 
   /* Inside auto layout */
 
-  flex: none;
-  flex-grow: 0;
 }
 
 #what-text h1 {
@@ -1115,7 +1128,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
 
   color: #87909D;
 
@@ -1126,41 +1139,29 @@ h2 {
 #what-boxes {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
+  padding: 10px;
   gap: 24px;
 
-  width: 648px;
-  height: 576px;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 150px;
 
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  width: 1921px;
+  height: 472px;
 }
 
 .what-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 32px;
-  gap: 16px;
-  isolation: isolate;
+ 
+display: flex;
+flex-direction: column;
 
-  width: 648px;
-  height: 176px;
+width: 648px;
+height: 176px;
 
-  background: #FFFFFF;
-  box-shadow: 0px 32px 96px rgba(28, 25, 25, 0.16);
-  border-radius: 6px;
+background: #FFFFFF;
+box-shadow: 0px 32px 96px rgba(28, 25, 25, 0.16);
+border-radius: 6px;
 
-  /* Inside auto layout */
-
-  flex: none;
-  flex-grow: 0;
 }
 
 .what-box h1 {
@@ -1175,42 +1176,54 @@ h2 {
   font-weight: 600;
   font-size: 24px;
   line-height: 100%;
-  /* identical to box height, or 24px */
-
-
-  /* Gray/900 */
 
   color: #132238;
 
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  z-index: 0;
 }
 
 .what-box h2 {
 
   width: 584px;
-  height: 72px;
+  height: 100px;
 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
-
-  /* Gray/600 */
 
   color: #556070;
+}
 
 
-  /* Inside auto layout */
+#footer{
+  display: flex;
+  background: #2B384C;
 
-  flex: none;
-  z-index: 1;
+  width: 1920px;
+  height: 230px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 010px 10px 10px;
+  gap: 200px;
+
+  background: #2B384C;
+}
+
+#footer-menus{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+width: 1920px;
+height: 230px;
+
+
+/* Inside auto layout */
+
+}
+
+#footer-logo{
+
 }
